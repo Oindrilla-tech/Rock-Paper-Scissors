@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="score-board">
+        <div class="titles"> 
+            <p>ROCK</p> 
+            <p>PAPER</p> 
+            <p>SCISSORS</p> 
+        </div>
+        <div class="score" id="comp"><p>COMPUTER SCORE</p>
+        <p id="comp-scr">0</p></div>
+        <div class="score" id="user"><p>YOUR SCORE</p>
+        <P id="user-scr">0</P></div>
+    </div>
+    <div class="container" id="Choice-Options">
+        <div class="triangle" >
+            <svg viewBox="0 0 280 280">
+                <path d="M100 190 L10 10 L190 10 Z" fill="none" stroke='rgba(0, 0, 0, 0.64)' stroke-width="10" />
+            </svg>
+            </div>
+        <div class="choice" id="rock" ><img  src="./images/rock.png" ></div>
+        <div class="choice" id="paper" ><img src="./images/paper.png" ></div>
+        <div class="choice" id="scissors" ><img  src="./images/scissors.png"></div>
+    </div>
+     <div class="result-container" id="Choice-winner"> 
+        
+        <!-- <div class="win-choice1"  ><img src="./images/paper.png" ></div>
+        <div class="winner">
+            <p >YOU WIN</p>
+            <p>Against PC</p>
+            <button id="play-again">Play Again</button>
+        </div>
+        <div class="win-choice2"  ><img  src="./images/scissor.png"></div> -->
+    </div>
+    <div class="rules-container"> 
+        <button class="close-button" onclick="cross()">×</button>
+        <div class="game-rules">
+            <p>GAME RULES</p>
+            <ul style="list-style-type:square;">
+                <li><span>Rock beats scissors, scissors beat paper, and paper beats rock.</span></li>
+                <li><span>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</span></li>
+                <li><span>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</span></li>
+                <li><span>If both players lay down the same hand, each player lays down another hand</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="rule" onclick="rule()">
+    <p>RULES</p>
+    <!-- <p>NEXT</p> -->
+    </div>
+    <div class="next" onclick="redirectTo()">
+        <p>NEXT</p>
+        </div>
+
+        <div class="nxt-page">
+            <!-- <img id="vector" src="./images/Vector.png">
+            <p id="hurray">HURRAY!!</p>
+            <p id="won">YOU WON THE GAME</p>
+            <button onclick="playAgain()" id="replay">Play Again</button> -->
+        </div>
+    </div>
+        <!-- <img id="vector" src="./images/Vector.png">
+        <p id="hurray">HURRAY!!</p>
+        <p id="won">YOU WON THE GAME</p>
+        <button onclick="playAgain()" id="replay">Play Again</button> -->
+    <script src="index.js"></script>
+    
+</body>
+</html>

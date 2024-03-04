@@ -1,0 +1,31 @@
+ .triangle {
+    left:10px;
+    width: 0; 
+    height: 0; 
+    border-radius: 15px;
+    border-left:110px solid transparent;
+    border-right:110px solid transparent;
+    border-bottom:110px solid rgba(0, 0, 0, 0.64);
+}
+.triangle:after {
+    left:10px;
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #FFF;
+    left: 57px;
+    position: absolute;
+    top: 38px;
+    content: '';
+} */
+
+.line {
+        position: absolute;
+        width: 3px; /* Adjust the thickness of the line as needed */
+        background-color: black; /* Change the color of the line as needed */
+        top: 50%;
+        left: 50%;
+        transform: rotate(60.58deg);
+        height: 15rem; /* Adjust the height of the line as needed */
+    }

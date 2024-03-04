@@ -1,0 +1,191 @@
+/* Frame 1 */
+
+position: relative;
+width: 1280px;
+height: 738px;
+
+background: #8CC461;
+
+/* Line 3 */
+
+position: absolute;
+width: 107.91px;
+height: 0px;
+left: 547px;
+top: 447px;
+
+border: 15px solid rgba(0, 0, 0, 0.64);
+transform: rotate(60.58deg);
+
+
+/* Line 3 */
+
+position: absolute;
+width: 107.91px;
+height: 0px;
+left: 547px;
+top: 447px;
+
+border: 15px solid rgba(0, 0, 0, 0.64);
+transform: rotate(60.58deg);
+
+
+/* SCISSORS */
+
+position: absolute;
+width: 235px;
+height: 37px;
+left: 259px;
+top: 163px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 47px;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+
+/* COMPUTER */
+
+position: absolute;
+width: 103px;
+height: 20px;
+left: 730px;
+top: 84px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+letter-spacing: 0.1em;
+
+color: #656565;
+
+
+/* 0 */
+
+position: absolute;
+width: 79px;
+height: 63px;
+left: 742px;
+top: 128px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 68px;
+line-height: 80px;
+text-align: center;
+
+color: #252525;
+
+/* RULES */
+
+position: absolute;
+width: 72px;
+height: 20px;
+left: 1160px;
+top: 683px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 25px;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+/* PLAY AGAIN */
+
+position: absolute;
+width: 99px;
+height: 14px;
+left: 609px;
+top: 561px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.1em;
+
+color: #6B6B6B;
+
+    /* width: 100%; */
+    position: absolute;
+    top: -1px;
+    left: 40px;
+    /* width: auto;
+
+    /* Line 3 */
+
+position: absolute;
+width: 107.91px;
+height: 0px;
+left: 547px;
+top: 447px;
+
+border: 15px solid rgba(0, 0, 0, 0.64);
+transform: rotate(60.58deg);
+
+
+/* Rock beats scissors, scissors beat paper, and paper beats rock. */
+
+position: absolute;
+width: 211px;
+height: 27px;
+left: 46px;
+top: 80px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+color: #FFFFFF;
+
+/* HURRAY!! */
+
+position: absolute;
+width: 464px;
+height: 86px;
+left: 436px;
+top: 422px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 91px;
+line-height: 107px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+/* YOU WON THE GAME */
+
+position: absolute;
+width: 457px;
+height: 48px;
+left: 442px;
+top: 533px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 41px;
+line-height: 48px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
